@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+body {
+  background-color: #fafaf9;
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+}
+
+#container {
+  margin: 140px auto 100px;
+  /* border: 1px solid red; */
+  width: 100vw;
+  max-width: 1136px;
+  height: 70vh;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#review {
+  /* border: 1px solid yellow; */
+  width: 40vw;
+}
+.rating-logo {
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  width: fit-content;
+  padding: 10px;
+  background-color: #f5c044;
+  object-fit: cover;
+}
+.fa-solid {
+  font-size: 18px;
+  background: linear-gradient(#ebebef 40%, #e0a504 80%, #816e34);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading {
+  font-size: 2.25rem;
+  color: #18181b;
+  margin-bottom: -0px;
+}
+.description {
+  margin-top: 12px;
+  line-height: 32px;
+  font-size: 20px;
+  color: #52525a;
+  margin-bottom: -0px;
+}
+.review-list {
+  margin-top: 22px;
+  line-height: 2.5rem;
+}
+.review-list div {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.review-list li {
+  padding-left: 12px;
+}
+#rating {
+  /* border: 1px solid red; */
+  width: 40vw;
+  height: auto;
+  margin-top: 2rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: white;
+  padding: 28px 40px;
+  /* border: 1px solid red; */
+  width: 50%;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card-1 {
+  position: relative;
+  top: 0;
+  left: 15rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo > img {
+  width: 30%;
+  object-fit: contain;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.comment {
+  margin-top: -8px;
+  line-height: 28px;
+}
